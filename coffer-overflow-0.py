@@ -5,7 +5,7 @@
 
 #To overflow rip, we need 16+8 input bytes
 
-frompwn import *
+from pwn import *
 
 payload = 'A'*25 #To overflow rip, we need 16+8 input bytes
 
